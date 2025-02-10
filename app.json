@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "linked",
     "name": "linked",
     "slug": "linked",
     "version": "1.0.0",
@@ -13,7 +14,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ruslanaliyev123.linked"
     },
     "android": {
       "adaptiveIcon": {
@@ -23,6 +25,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
